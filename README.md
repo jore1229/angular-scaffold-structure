@@ -43,3 +43,8 @@ Provides styling for the whole project and for localized components. Also includ
 
 ### Documentation Directory
 Includes all relevant documentation for the project, requirements, etc.
+
+## Setup and Install
+If presented with the error "ng.ps1 cannot be loaded because running scripts is disabled on this system", enter the following command in powershell:
+
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
