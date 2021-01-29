@@ -27,18 +27,17 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "extractCss": true,
             "styles": [
               "src/styles/styles.scss",
               {
-                "input":"src/styles/darkstyle-theme.scss",
-                "bundleName":"darkstyle-theme",
-                "inject":false
+                "input": "src/styles/darkstyle-theme.scss",
+                "bundleName": "darkstyle-theme",
+                "inject": true
               },
               {
-                "input":"src/styles/lightstyle-theme.scss",
-                "bundleName":"lightstyle-theme",
-                "inject":false
+                "input": "src/styles/lightstyle-theme.scss",
+                "bundleName": "lightstyle-theme",
+                "inject": true
               }
             ],
             "scripts": [
@@ -58,7 +57,6 @@
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
-              "extractCss": true,
               "namedChunks": false,
               "extractLicenses": true,
               "vendorChunk": false,
@@ -109,14 +107,14 @@
             "styles": [
               "src/styles/styles.scss",
               {
-                "input":"src/styles/darkstyle-theme.scss",
-                "bundleName":"darkstyle-theme",
-                "inject":false
+                "input": "src/styles/darkstyle-theme.scss",
+                "bundleName": "darkstyle-theme",
+                "inject": true
               },
               {
-                "input":"src/styles/lightstyle-theme.scss",
-                "bundleName":"lightstyle-theme",
-                "inject":false
+                "input": "src/styles/lightstyle-theme.scss",
+                "bundleName": "lightstyle-theme",
+                "inject": true
               }
             ],
             "scripts": [
