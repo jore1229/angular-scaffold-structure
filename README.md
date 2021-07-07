@@ -1,7 +1,7 @@
 # Angular Project Scaffold 
 This project serves as a scaffold base for building new Angular projects. Features included are:
 
-* Angular v10
+* Angular v12
 * Bootstrap Toolkit
 * Dynamic Theme selection
 * Browser Animation support
